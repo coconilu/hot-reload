@@ -1,0 +1,17 @@
+{
+  "name": "hot-reload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bayeswang <827130441@qq.com> (https://github.com/coconilu/Blog)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "hot": "node ./src/reload.js"
+  },
+  "dependencies": {
+    "@koa/router": "^9.3.1",
+    "chokidar": "^3.4.1",
+    "debug": "^4.1.1",
+    "koa": "^2.13.0"
+  }
+}
